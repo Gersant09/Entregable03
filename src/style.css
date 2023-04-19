@@ -22,6 +22,8 @@ head{
 
 .rickText{
     width: 500px;
+    z-index: 10;
+    justify-content: center;
 }
 
 .rotative{
@@ -29,8 +31,11 @@ head{
 }
 
 .imgContainer{
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes rotation {
