@@ -20,10 +20,25 @@ head{
     font-family: 'Rubik Pixels', cursive;
 }
 
-
-#logo{
-    position: absolute;
-   
-    text-align: center;
+.rickText{
+    width: 500px;
 }
+
+.rotative{
+    animation: rotation 10s linear infinite;
+}
+
+.imgContainer{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
