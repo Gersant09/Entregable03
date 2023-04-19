@@ -1,0 +1,29 @@
+body{
+    position: relative;
+        background-image: url("/background\ header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+head{
+    background-image: url("/Ellipse.png");
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.h2{
+    font-family: 'Rubik Pixels', cursive;
+}
+
+
+#logo{
+    position: absolute;
+   
+    text-align: center;
+}
+
